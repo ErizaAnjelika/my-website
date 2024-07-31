@@ -48,7 +48,7 @@ export const About = () => {
             </p>
           </div>
           <a
-            href="https://drive.google.com/file/d/1UQM6cnPfmwoixFVjj9bkjGhH9lGz4TTE/view?usp=sharing"
+            href="https://drive.google.com/file/d/1UQM6cnPfmwoixFVjj9bkjGhH9lGz4TTE/view"
             className="flex gap-2 mt-8 w-36 p-2 bg-blue-800 items-center rounded-full justify-center shadow-lg shadow-blue-400 hover:shadow-blue-600"
             target="_blank"
           >
