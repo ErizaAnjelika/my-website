@@ -22,7 +22,10 @@ export const Home = () => {
               I am a <TypingEffect text="Frontend Web Developer" />
             </p>
           </div>
-          <button className="flex gap-2 w-36 p-2 bg-orange-400 items-center rounded-full justify-center shadow-lg shadow-orange-300 hover:shadow-orange-500">
+          <button
+            onClick={() => document.getElementById("about").scrollIntoView()}
+            className="flex gap-2 w-36 p-2 bg-orange-400 items-center rounded-full justify-center shadow-lg shadow-orange-300 hover:shadow-orange-500"
+          >
             <h1 className="text-lg font-medium text-white">About Me</h1>
             <img
               src="/img/gif/arrow-down.gif"

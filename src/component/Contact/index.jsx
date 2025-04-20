@@ -14,13 +14,12 @@ export const Contact = () => {
           </div>
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSdB8-tz3j0Q01gBr1SE8Ig1fMIrghzrZ-ko233kog-LgjBaZg/viewform?embedded=true"
-           
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
+            frameBorder={0}
+            marginHeight={0}
+            marginWidth={0}
             className="w-full h-96"
           >
-            Memuat…
+            Memuat...
           </iframe>
         </div>
       </div>

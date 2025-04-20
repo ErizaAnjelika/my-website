@@ -2,7 +2,7 @@ import TypingEffect from "../UI/TypingEfect";
 
 export const About = () => {
   return (
-    <div className="mt-10 px-5 md:px-12 lg:px-36 h-full">
+    <div id="about" className="mt-10 px-5 md:px-12 lg:px-36 h-full">
       <div className="flex gap-1 items-center justify-center">
         <img src="/img/gif/user.gif" alt="user" className="w-20" />
         <h1 className="text-4xl lg:text-5xl font-bold capitalize">
@@ -38,18 +38,18 @@ export const About = () => {
                 </span>
               </a>
             </p>
-            <p className="text-blue-800 font-bold">
+            {/* <p className="text-blue-800 font-bold">
               Phone :{" "}
               <a href="https://wa.me/6285695655046" target="_blank">
                 <span className="text-blue-950 font-medium hover:text-blue-500 hover:underline">
                   +62 856 956 55046
                 </span>
               </a>
-            </p>
+            </p> */}
           </div>
           <a
             href="https://drive.google.com/file/d/1UQM6cnPfmwoixFVjj9bkjGhH9lGz4TTE/view"
-            className="flex gap-2 mt-8 w-36 p-2 bg-blue-800 items-center rounded-full justify-center shadow-lg shadow-blue-400 hover:shadow-blue-600"
+            className="flex gap-2 mt-8 w-36 p-2 bg-orange-400 items-center rounded-full justify-center shadow-lg shadow-orange-400 hover:shadow-orange-500"
             target="_blank"
           >
             <h1 className="text-lg font-medium text-white">Resume</h1>

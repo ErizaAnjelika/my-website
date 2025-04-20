@@ -38,7 +38,7 @@ export const Footer = () => {
             Contact Info
           </h1>
           <div className="space-y-4">
-            <div className="flex gap-2 items-center">
+            {/* <div className="flex gap-2 items-center">
               <img src="/img/icon/phone-call.png" alt="phone" className="w-5" />
               <a
                 href="https://wa.me/6285695655046"
@@ -47,7 +47,7 @@ export const Footer = () => {
               >
                 +62 85695655046
               </a>
-            </div>
+            </div> */}
             <div className="flex gap-2 items-center">
               <img src="/img/icon/email (1).png" alt="phone" className="w-5" />
               <a

@@ -67,12 +67,12 @@ export const DataSkills = [
     icon: "/img/icon/github.png",
     range: "Beginner",
   },
-  {
-    id: 8,
-    title: "Laravel",
-    icon: "/img/icon/laravel.png",
-    range: "Beginner",
-  },
+  // {
+  //   id: 8,
+  //   title: "Laravel",
+  //   icon: "/img/icon/laravel.png",
+  //   range: "Beginner",
+  // },
   {
     id: 9,
     title: "Tailwind",
@@ -85,12 +85,12 @@ export const DataSkills = [
     icon: "/img/icon/bootstrap.png",
     range: "Intermediate",
   },
-  {
-    id: 11,
-    title: "MaterialUi",
-    icon: "/img/icon/mui.png",
-    range: "Intermediate",
-  },
+  // {
+  //   id: 11,
+  //   title: "MaterialUi",
+  //   icon: "/img/icon/mui.png",
+  //   range: "Intermediate",
+  // },
   {
     id: 12,
     title: "Next.js",
@@ -99,8 +99,8 @@ export const DataSkills = [
   },
   {
     id: 13,
-    title: "Redux",
-    icon: "/img/icon/redux.png",
+    title: "Golang",
+    icon: "/img/icon/golang.png",
     range: "Beginner",
   },
   {
@@ -109,18 +109,18 @@ export const DataSkills = [
     icon: "/img/icon/node.png",
     range: "Beginner",
   },
-  {
-    id: 15,
-    title: "React Native",
-    icon: "/img/icon/react.png",
-    range: "Beginner",
-  },
-  {
-    id: 16,
-    title: "React Query",
-    icon: "/img/icon/react-query.png",
-    range: "Beginner",
-  },
+  // {
+  //   id: 15,
+  //   title: "React Native",
+  //   icon: "/img/icon/react.png",
+  //   range: "Beginner",
+  // },
+  // {
+  //   id: 16,
+  //   title: "React Query",
+  //   icon: "/img/icon/react-query.png",
+  //   range: "Beginner",
+  // },
   {
     id: 17,
     title: "TypeScript",
@@ -139,12 +139,12 @@ export const DataSkills = [
     icon: "/img/icon/netlify.png",
     range: "Beginner",
   },
-  {
-    id: 20,
-    title: "Firebase",
-    icon: "/img/icon/firebase.png",
-    range: "Beginner",
-  },
+  // {
+  //   id: 20,
+  //   title: "Firebase",
+  //   icon: "/img/icon/firebase.png",
+  //   range: "Beginner",
+  // },
 ];
 
 // data education
@@ -180,6 +180,13 @@ export const DataExperience = [
   {
     id: 1,
     title: "Frontend Web Developer",
+    date: "Agustus 2024 - Present",
+    company: "Anakode",
+    type: "Fulltime",
+  },
+  {
+    id: 1,
+    title: "Frontend Web Developer",
     date: "January 2024 - June 2024",
     company: "PT.United Tractor",
     type: "Internship",
@@ -202,16 +209,16 @@ export const DataExperience = [
 
 // data projects
 export const DataProjects = [
-  {
-    id: 1,
-    title: "Website Data Siswa",
-    description:
-      "A full stack project utilizing HTML, PHP, and JavaScript with the CodeIgniter framework, integrated with the AdminLTE template for the admin interface, and managed using phpMyAdmin for database administration.",
-    image: "/img/projects/data-siswa.png",
-    code: "https://github.com/ErizaAnjelika/Website-Data-Siswa",
-    preview:
-      "https://www.youtube.com/watch?v=Wpp4J2z0eqs&ab_channel=ErizaAngel",
-  },
+  // {
+  //   id: 1,
+  //   title: "Website Data Siswa",
+  //   description:
+  //     "A full stack project utilizing HTML, PHP, and JavaScript with the CodeIgniter framework, integrated with the AdminLTE template for the admin interface, and managed using phpMyAdmin for database administration.",
+  //   image: "/img/projects/data-siswa.png",
+  //   code: "https://github.com/ErizaAnjelika/Website-Data-Siswa",
+  //   preview:
+  //     "https://www.youtube.com/watch?v=Wpp4J2z0eqs&ab_channel=ErizaAngel",
+  // },
   {
     id: 2,
     title: "Company Profile (Astra Otoparts)",
@@ -221,15 +228,15 @@ export const DataProjects = [
     code: "https://github.com/ErizaAnjelika/D9_Tugas_Kelompok2",
     preview: "https://erizaanjelika.github.io/D9_Tugas_Kelompok2/",
   },
-  {
-    id: 3,
-    title: "Edutech (Education Technology)",
-    description:
-      "A full stack Learning Management System (LMS) using .NET 8 for the backend and React TypeScript, Tailwind CSS, and Flowbite for the frontend. This platform offers a scalable, interactive solution for effective online learning and course management.",
-    image: "/img/projects/edutech.png",
-    code: "https://github.com/ErizaAnjelika/edutech",
-    preview: "https://www.edutechibe.my.id/",
-  },
+  // {
+  //   id: 3,
+  //   title: "Edutech (Education Technology)",
+  //   description:
+  //     "A full stack Learning Management System (LMS) using .NET 8 for the backend and React TypeScript, Tailwind CSS, and Flowbite for the frontend. This platform offers a scalable, interactive solution for effective online learning and course management.",
+  //   image: "/img/projects/edutech.png",
+  //   code: "https://github.com/ErizaAnjelika/edutech",
+  //   preview: "https://www.edutechibe.my.id/",
+  // },
   {
     id: 4,
     title: "Landing Page (Furniture)",
@@ -266,13 +273,49 @@ export const DataProjects = [
     code: "https://github.com/ErizaAnjelika/ecoDrive",
     preview: "https://landing-page-ecodrive.netlify.app/",
   },
+  // {
+  //   id: 8,
+  //   title: "Weather Website",
+  //   description:
+  //     "A simple weather website built with HTML, JavaScript, and styled with Tailwind CSS. This project fetches weather data from a public API and displays current weather conditions in a clean, responsive layout.",
+  //   image: "/img/projects/cuaca.png",
+  //   code: "https://github.com/ErizaAnjelika/Cuaca",
+  //   preview: "https://erizaanjelika.github.io/Cuaca/",
+  // },
   {
     id: 8,
-    title: "Weather Website",
+    title: "Delfia Fashion",
     description:
-      "A simple weather website built with HTML, JavaScript, and styled with Tailwind CSS. This project fetches weather data from a public API and displays current weather conditions in a clean, responsive layout.",
-    image: "/img/projects/cuaca.png",
-    code: "https://github.com/ErizaAnjelika/Cuaca",
-    preview: "https://erizaanjelika.github.io/Cuaca/",
+      "An Islamic fashion e-commerce website built with React.js, styled using Tailwind CSS and custom CSS. This project integrates data from the Jubelio API, with backend support powered by a Laravel-based API.",
+    image: "/img/projects/delfia.png",
+    code: "https://github.com/zicchi/delfiafashion",
+    preview: "https://delfiafashion.com/",
+  },
+  {
+    id: 9,
+    title: "Ornama Furniture",
+    description:
+      "A furniture e-commerce website built with React.js, styled using Tailwind CSS and custom CSS. This project integrates data with backend support powered by a Laravel-based API.",
+    image: "/img/projects/ornama.png",
+    code: "https://github.com/zicchi/furniture",
+    preview: "https://ornamafurniture.id/",
+  },
+  {
+    id: 10,
+    title: "Rathen Store",
+    description:
+      "A jersey e-commerce website built with React.js, styled using Tailwind CSS and custom CSS. This project integrates data with backend support powered by a Laravel-based API, and includes payment integration with Midtrans.",
+    image: "/img/projects/rathen.png",
+    code: "https://github.com/zicchi/furniture",
+    preview: "https://store.rathen.id/",
+  },
+  {
+    id: 11,
+    title: "Brain Optimation (LMS)",
+    description:
+      "A Learning Management System (LMS) built with React.js, styled using Tailwind CSS and custom CSS. This project is supported by a backend powered by a Laravel-based API.",
+    image: "/img/projects/lms.png",
+    code: "https://github.com/zicchi/brainopt",
+    preview: "https://github.com/zicchi/brainopt",
   },
 ];

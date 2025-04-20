@@ -34,6 +34,20 @@ export const Navbar = () => {
     setToggle(false);
   };
 
+  const [currentMenu, setCurrentMenu] = useState(window.location.hash);
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      setCurrentMenu(window.location.hash);
+    };
+
+    window.addEventListener("hashchange", handleHashChange);
+
+    return () => {
+      window.removeEventListener("hashchange", handleHashChange);
+    };
+  }, []);
+
   return (
     <div className="bg-gray-100 fixed w-full px-5 md:px-10 lg:px-36 py-2 shadow-md z-10">
       <div className="flex justify-between">
@@ -50,7 +64,13 @@ export const Navbar = () => {
             <div key={index}>
               <a
                 href={`#${data.title}`}
-                className="text-blue-950 font-semibold hover:text-blue-700 hover:border-b-4 hover:border-b-blue-600"
+                className={`font-semibold hover:text-orange-700 hover:border-b-4 hover:border-b-orange-600 
+                  ${
+                    currentMenu === `#${data.title}`
+                      ? "text-orange-700 border-b-4 border-b-orange-600"
+                      : ""
+                  }
+                  `}
               >
                 {data.title}
               </a>

@@ -2,14 +2,14 @@ import { DataSkills } from "../../service/data";
 
 export const Skills = () => {
   return (
-    <div className="bg-blue-800 mt-10 p-10 px-5 md:px-12 lg:px-36">
+    <div className="bg-[#e6e6e6] mt-10 p-10 px-5 md:px-12 lg:px-36">
       <div className="flex gap-1 pt-4 items-center justify-center">
-        <img src="/img/gif/code.gif" alt="code" className="w-10" />
-        <h1 className="text-3xl font-bold text-white capitalize">
+        <img src="/img/gif/code2.gif" alt="code" className="w-10" />
+        <h1 className="text-3xl font-bold capitalize">
           Skills & <span className="text-orange-400">abilities</span>
         </h1>
       </div>
-      <div className="bg-blue-950 p-4 mt-10 rounded-xl grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
+      <div className="bg-orange-900 p-4 mt-10 rounded-xl grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
         {DataSkills.map((item) => (
           <div
             key={item.id}
