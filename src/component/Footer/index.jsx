@@ -24,7 +24,7 @@ export const Footer = () => {
               <div key={index} className="flex gap-1 items-center">
                 <img src="/img/icon/next (2).png" alt="arrow" className="w-5" />
                 <a
-                  href={data.title}
+                  href={`#${data.title}`}
                   className="text-white font-medium hover:text-orange-400 hover:underline"
                 >
                   {data.title}
